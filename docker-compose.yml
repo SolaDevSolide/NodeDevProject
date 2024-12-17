@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      target: development  # Use the development stage
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend:/usr/src/app
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - DB_USER=postgres
+      - DB_PASSWORD=admin
+      - DB_HOST=postgres_db
+      - DB_NAME=nodeAngular
+      - DB_PORT=5432
+    depends_on:
+      - postgres_db
+
+  frontend:
+    build:
+      context: ./frontend
+      target: development  # Use the development stage
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./frontend:/app
+    depends_on:
+      - backend
+
+  postgres_db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: nodeAngular
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
