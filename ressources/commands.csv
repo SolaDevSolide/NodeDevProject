@@ -1,0 +1,169 @@
+id_commande,address,date,status
+1,"541, rue de Alexandre, 15124 Rey",2023-01-01 00:00:00,en cours
+2,"boulevard Collin, 27053 Couturier-sur-Mer",2023-01-04 01:51:25,annulée
+3,"58, rue Cécile Lefort, 50413 Jacquet-sur-Mer",2023-01-07 03:42:51,annulée
+4,"99, rue Boutin, 39045 Sainte Antoine-sur-Mer",2023-01-10 05:34:17,annulée
+5,"538, avenue Frédérique Bigot, 52283 Jourdan-sur-Garnier",2023-01-13 07:25:42,annulée
+6,"29, boulevard de Bertrand, 42506 Rossi",2023-01-16 09:17:08,annulée
+7,"33, rue Georges Riou, 58640 Bodin",2023-01-19 11:08:34,annulée
+8,"75, rue de Bouvier, 47894 Fouquet",2023-01-22 13:00:00,annulée
+9,"99, avenue de Rocher, 46024 DelahayeVille",2023-01-25 14:51:25,annulée
+10,"78, rue Aubry, 09333 Maillot",2023-01-28 16:42:51,en cours
+11,"boulevard Ribeiro, 37946 Fournier",2023-01-31 18:34:17,livrée
+12,"336, rue Da Costa, 87363 Saint Chantal",2023-02-03 20:25:42,en cours
+13,"88, rue Roux, 53730 Sainte Benoît-la-Forêt",2023-02-06 22:17:08,livrée
+14,"300, boulevard de Gilles, 22148 Michel",2023-02-10 00:08:34,annulée
+15,"151, avenue de Pires, 78639 Monnier",2023-02-13 02:00:00,en cours
+16,"rue de Toussaint, 12563 LévêqueVille",2023-02-16 03:51:25,en cours
+17,"87, boulevard de Gaillard, 45483 Saint VictoireVille",2023-02-19 05:42:51,en cours
+18,"34, avenue Raymond Legendre, 68790 Pasquier-sur-Charles",2023-02-22 07:34:17,annulée
+19,"75, boulevard de Fleury, 66860 Saint Maryse-la-Forêt",2023-02-25 09:25:42,annulée
+20,"28, chemin de Lambert, 70168 Verdier",2023-02-28 11:17:08,annulée
+21,"74, boulevard Adrienne Pruvost, 39477 Grondindan",2023-03-03 13:08:34,annulée
+22,"rue de Martin, 01194 Delmasnec",2023-03-06 15:00:00,en cours
+23,"63, boulevard Rodrigues, 33237 Rolland-sur-Mer",2023-03-09 16:51:25,livrée
+24,"82, boulevard de Guyot, 34199 Munoz",2023-03-12 18:42:51,en cours
+25,"19, rue Daniel, 95527 Mercier",2023-03-15 20:34:17,livrée
+26,"44, rue de Rocher, 84162 MaillotBourg",2023-03-18 22:25:42,en cours
+27,"3, boulevard Célina Collet, 36832 Chauvin-sur-Mer",2023-03-22 00:17:08,annulée
+28,"921, rue de Marion, 93373 Schmitt-sur-Mer",2023-03-25 02:08:34,en cours
+29,"rue de Rolland, 60954 Sainte Théophileboeuf",2023-03-28 04:00:00,livrée
+30,"26, rue Marguerite Raymond, 09437 Sainte GeorgesVille",2023-03-31 05:51:25,en cours
+31,"8, chemin Léon Courtois, 27375 Garnier",2023-04-03 07:42:51,livrée
+32,"95, rue De Sousa, 73586 FaivreBourg",2023-04-06 09:34:17,annulée
+33,"4, chemin Caroline Olivier, 55932 Ramos-la-Forêt",2023-04-09 11:25:42,annulée
+34,"71, boulevard Maurice, 59391 Bonneau",2023-04-12 13:17:08,annulée
+35,"21, avenue Philippe Pierre, 36981 Sainte Benjamin",2023-04-15 15:08:34,annulée
+36,"31, chemin Bonneau, 61167 Brunet",2023-04-18 17:00:00,annulée
+37,"5, boulevard André Vidal, 38846 Leclercq",2023-04-21 18:51:25,en cours
+38,"95, boulevard Paris, 26332 MailletVille",2023-04-24 20:42:51,livrée
+39,"5, chemin Tristan Becker, 28055 Saint Mathilde",2023-04-27 22:34:17,livrée
+40,"66, boulevard de Boulanger, 20679 Raynaud",2023-05-01 00:25:42,annulée
+41,"238, chemin Maggie Georges, 78113 Sainte Jeannedan",2023-05-04 02:17:08,annulée
+42,"45, rue Marguerite Verdier, 41942 Roche-la-Forêt",2023-05-07 04:08:34,en cours
+43,"79, boulevard de Meyer, 93417 Lebretonboeuf",2023-05-10 06:00:00,annulée
+44,"96, chemin De Oliveira, 03639 Mercier",2023-05-13 07:51:25,livrée
+45,"58, rue Alex Letellier, 16557 Lévy",2023-05-16 09:42:51,livrée
+46,"32, chemin de Delattre, 61342 Tessier",2023-05-19 11:34:17,livrée
+47,"14, boulevard Renée Chrétien, 29007 Saint Anaïs",2023-05-22 13:25:42,en cours
+48,"7, avenue Martine Fleury, 51146 FoucherVille",2023-05-25 15:17:08,en cours
+49,"540, avenue de Pottier, 72567 Picard",2023-05-28 17:08:34,en cours
+50,"avenue Susanne Meyer, 96034 Guichard",2023-05-31 19:00:00,livrée
+51,"rue Nathalie Colas, 31033 Sainte OlivieBourg",2023-06-03 20:51:25,annulée
+52,"47, rue de Étienne, 84597 Weiss-sur-Bigot",2023-06-06 22:42:51,annulée
+53,"2, chemin Martinez, 95172 Sainte Célina",2023-06-10 00:34:17,annulée
+54,"208, rue de Fernandez, 93023 Mercierboeuf",2023-06-13 02:25:42,en cours
+55,"boulevard de Lucas, 27668 Sainte Philippe",2023-06-16 04:17:08,livrée
+56,"rue Delahaye, 52555 Bernarddan",2023-06-19 06:08:34,livrée
+57,"52, boulevard Martin, 53563 Bernier",2023-06-22 08:00:00,annulée
+58,"rue Sanchez, 54535 Rodrigues",2023-06-25 09:51:25,en cours
+59,"34, rue Martineau, 00174 Guillouboeuf",2023-06-28 11:42:51,en cours
+60,"58, boulevard de Durand, 72402 Lombarddan",2023-07-01 13:34:17,livrée
+61,"985, boulevard Michaud, 72792 Saint Renée",2023-07-04 15:25:42,en cours
+62,"avenue Diaz, 29836 Girard",2023-07-07 17:17:08,annulée
+63,"452, boulevard Vallée, 04881 Imbert",2023-07-10 19:08:34,annulée
+64,"avenue Coulon, 70057 Sauvagedan",2023-07-13 21:00:00,livrée
+65,"1, boulevard Imbert, 47198 Saint Adriendan",2023-07-16 22:51:25,livrée
+66,"68, rue de Chevallier, 80036 Schmitt-sur-Bernard",2023-07-20 00:42:51,en cours
+67,"2, chemin de Gimenez, 60779 Didier-sur-Pires",2023-07-23 02:34:17,livrée
+68,"11, chemin Thérèse Guyon, 17400 Leroux-la-Forêt",2023-07-26 04:25:42,annulée
+69,"52, boulevard de Girard, 53380 BarbeBourg",2023-07-29 06:17:08,annulée
+70,"51, rue Danielle Blanchet, 26958 Hervé",2023-08-01 08:08:34,livrée
+71,"79, rue Costa, 30721 Saint Jeannine-les-Bains",2023-08-04 10:00:00,en cours
+72,"61, chemin Laroche, 96249 Olivier-sur-Mer",2023-08-07 11:51:25,en cours
+73,"89, avenue Grégoire Evrard, 31576 Alvesnec",2023-08-10 13:42:51,annulée
+74,"448, chemin de Maurice, 34160 Lesage",2023-08-13 15:34:17,annulée
+75,"12, avenue Denise Didier, 61509 Pottier",2023-08-16 17:25:42,en cours
+76,"46, rue de Peron, 58016 Faure-la-Forêt",2023-08-19 19:17:08,livrée
+77,"965, boulevard Pierre Neveu, 16412 Allain-sur-Pinto",2023-08-22 21:08:34,en cours
+78,"19, rue de Mathieu, 39683 Legrandboeuf",2023-08-25 23:00:00,annulée
+79,"538, rue de Masse, 07273 Berger",2023-08-29 00:51:25,en cours
+80,"97, avenue Diallo, 78055 Saint MichelleVille",2023-09-01 02:42:51,livrée
+81,"avenue Marie, 52899 Foucher",2023-09-04 04:34:17,annulée
+82,"834, rue Arthur Rousseau, 51446 Gaillard-sur-Mer",2023-09-07 06:25:42,en cours
+83,"18, chemin Lefebvre, 75623 Saint Pénélope",2023-09-10 08:17:08,annulée
+84,"733, avenue de Pineau, 23067 Payet",2023-09-13 10:08:34,livrée
+85,"484, boulevard de Schneider, 68436 Sanchez",2023-09-16 12:00:00,en cours
+86,"227, boulevard Loiseau, 20639 Saint Henriette",2023-09-19 13:51:25,annulée
+87,"93, rue Pierre Barbier, 89468 Massedan",2023-09-22 15:42:51,en cours
+88,"45, rue Hoarau, 64917 Saint Jacques-la-Forêt",2023-09-25 17:34:17,en cours
+89,"236, boulevard Torres, 82228 Léger",2023-09-28 19:25:42,en cours
+90,"63, rue de Delahaye, 40449 Chauveau",2023-10-01 21:17:08,en cours
+91,"37, rue Renée Lévêque, 83496 Daniel",2023-10-04 23:08:34,livrée
+92,"3, rue de Pires, 37030 Saint Augustin",2023-10-08 01:00:00,annulée
+93,"88, chemin Baron, 54522 Diallodan",2023-10-11 02:51:25,en cours
+94,"13, rue de Leroy, 26648 Bouvier-sur-Pereira",2023-10-14 04:42:51,en cours
+95,"6, chemin Lucy Guyon, 68824 Saint Auguste",2023-10-17 06:34:17,livrée
+96,"94, rue Legendre, 25594 Lesage",2023-10-20 08:25:42,livrée
+97,"avenue Vidal, 69109 Bouvetnec",2023-10-23 10:17:08,livrée
+98,"442, avenue Célina Wagner, 79144 Bègue-sur-Mer",2023-10-26 12:08:34,en cours
+99,"61, chemin Grondin, 39701 Sainte Thibault",2023-10-29 14:00:00,livrée
+100,"27, rue Allain, 94244 Thibault",2023-11-01 15:51:25,annulée
+101,"2, rue Émilie Weber, 82416 Voisin",2023-11-04 17:42:51,annulée
+102,"327, boulevard Hortense Hoareau, 05074 Joubert",2023-11-07 19:34:17,livrée
+103,"chemin Nicolas Leblanc, 43173 ThibaultVille",2023-11-10 21:25:42,en cours
+104,"3, boulevard de Aubert, 68708 Danieldan",2023-11-13 23:17:08,en cours
+105,"rue Gilbert Humbert, 53430 Deschamps",2023-11-17 01:08:34,annulée
+106,"39, rue Mathilde Guibert, 95050 Saint Arthur",2023-11-20 03:00:00,en cours
+107,"rue Cohen, 58037 Bernard",2023-11-23 04:51:25,en cours
+108,"263, rue Susan Bonnet, 55002 DialloBourg",2023-11-26 06:42:51,annulée
+109,"32, boulevard de Munoz, 61094 Lefèvre",2023-11-29 08:34:17,annulée
+110,"38, boulevard Monique Colas, 75520 Kleinboeuf",2023-12-02 10:25:42,annulée
+111,"14, rue De Sousa, 82368 Picardnec",2023-12-05 12:17:08,annulée
+112,"22, boulevard Jean Brunel, 53466 Auger",2023-12-08 14:08:34,livrée
+113,"94, rue Gilles Guichard, 09171 Bourdon",2023-12-11 16:00:00,livrée
+114,"avenue Lemaître, 35860 Georges-les-Bains",2023-12-14 17:51:25,annulée
+115,"373, avenue de Monnier, 78128 Marchal-sur-Mer",2023-12-17 19:42:51,livrée
+116,"45, boulevard Turpin, 68825 PetitBourg",2023-12-20 21:34:17,annulée
+117,"59, chemin Chauveau, 07698 Lopez",2023-12-23 23:25:42,annulée
+118,"66, boulevard Petitjean, 50594 Pottier",2023-12-27 01:17:08,livrée
+119,"51, avenue de Jacquet, 45467 Carlier-sur-Delorme",2023-12-30 03:08:34,en cours
+120,"72, avenue de Gaudin, 81341 Peltierdan",2024-01-02 05:00:00,annulée
+121,"28, chemin Antoinette Andre, 95988 Saint Éric",2024-01-05 06:51:25,en cours
+122,"90, boulevard Thibault Bourgeois, 86734 Maury",2024-01-08 08:42:51,en cours
+123,"rue de Duval, 45414 Saint Nicole-les-Bains",2024-01-11 10:34:17,en cours
+124,"38, rue Marcelle Masson, 32588 Guérin-sur-Mer",2024-01-14 12:25:42,en cours
+125,"2, rue Bruneau, 97450 Bègue-la-Forêt",2024-01-17 14:17:08,en cours
+126,"94, rue Berger, 02573 Dufour",2024-01-20 16:08:34,annulée
+127,"67, chemin Michelle Simon, 10457 Josephdan",2024-01-23 18:00:00,en cours
+128,"72, boulevard de Labbé, 48932 Faure-sur-Mer",2024-01-26 19:51:25,livrée
+129,"79, chemin Valentine Gonzalez, 25158 Hervé",2024-01-29 21:42:51,annulée
+130,"98, boulevard Morvan, 01887 Hervédan",2024-02-01 23:34:17,en cours
+131,"avenue de Pierre, 40778 Guilbert",2024-02-05 01:25:42,annulée
+132,"chemin de Lefebvre, 73034 Lefebvre",2024-02-08 03:17:08,annulée
+133,"rue de Jacquet, 43664 Saint Louise-sur-Mer",2024-02-11 05:08:34,annulée
+134,"65, boulevard Christine Lopez, 60366 Marques-la-Forêt",2024-02-14 07:00:00,annulée
+135,"866, boulevard de Rodrigues, 10983 Rousseau",2024-02-17 08:51:25,annulée
+136,"79, rue de Durand, 16129 Perrin",2024-02-20 10:42:51,en cours
+137,"876, boulevard de Paul, 49250 Lemaître-sur-Riou",2024-02-23 12:34:17,en cours
+138,"rue Blanchard, 40667 Sainte Susanne",2024-02-26 14:25:42,livrée
+139,"335, rue Renault, 27507 Devaux",2024-02-29 16:17:08,en cours
+140,"952, boulevard Riou, 82785 MichelVille",2024-03-03 18:08:34,livrée
+141,"2, chemin Zoé Lombard, 39442 Blanchard-sur-Mer",2024-03-06 20:00:00,en cours
+142,"414, rue Guibert, 95745 Chauveau-sur-Lagarde",2024-03-09 21:51:25,livrée
+143,"33, rue Auguste Merle, 31990 Mace",2024-03-12 23:42:51,annulée
+144,"chemin de Gallet, 66175 Saint Monique-sur-Mer",2024-03-16 01:34:17,annulée
+145,"65, avenue de Berthelot, 18262 Muller",2024-03-19 03:25:42,en cours
+146,"1, chemin Meyer, 38394 Jourdan",2024-03-22 05:17:08,en cours
+147,"24, chemin Da Costa, 62226 Michel-sur-Fernandez",2024-03-25 07:08:34,annulée
+148,"87, boulevard Parent, 69361 Chevalier",2024-03-28 09:00:00,annulée
+149,"39, avenue Giraud, 69965 Albert-la-Forêt",2024-03-31 10:51:25,annulée
+150,"60, boulevard Henriette Chauvin, 98034 Maillet",2024-04-03 12:42:51,annulée
+151,"14, avenue Susan Barthelemy, 30507 MoreauVille",2024-04-06 14:34:17,en cours
+152,"33, rue de Boulanger, 73692 Blanchet",2024-04-09 16:25:42,annulée
+153,"390, avenue Pichon, 57707 Rousset",2024-04-12 18:17:08,annulée
+154,"49, chemin de Pinto, 86333 Fleury-les-Bains",2024-04-15 20:08:34,en cours
+155,"42, avenue Aimé Pinto, 99871 BrunetVille",2024-04-18 22:00:00,en cours
+156,"30, avenue Bertin, 09485 Perez",2024-04-21 23:51:25,en cours
+157,"96, rue Capucine Barthelemy, 33848 Hamon-la-Forêt",2024-04-25 01:42:51,livrée
+158,"180, rue Michaud, 26426 Delormenec",2024-04-28 03:34:17,livrée
+159,"avenue Renault, 71143 Guillot",2024-05-01 05:25:42,en cours
+160,"95, rue de Masson, 22089 Seguinnec",2024-05-04 07:17:08,livrée
+161,"97, rue de Guillon, 57442 Gauthier-sur-Perret",2024-05-07 09:08:34,en cours
+162,"4, avenue Vaillant, 48103 PottierBourg",2024-05-10 11:00:00,en cours
+163,"98, boulevard Le Roux, 31442 Gosselin",2024-05-13 12:51:25,livrée
+164,"10, rue de Petitjean, 85385 Jacob",2024-05-16 14:42:51,livrée
+165,"218, rue Richard Hebert, 95557 Brunet",2024-05-19 16:34:17,livrée
+166,"40, chemin Valentine Lemaître, 74613 Leroy",2024-05-22 18:25:42,annulée
+167,"589, chemin de Maillot, 94593 Gosselindan",2024-05-25 20:17:08,en cours
+168,"542, chemin de Petit, 96859 Petit",2024-05-28 22:08:34,en cours

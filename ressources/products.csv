@@ -1,0 +1,505 @@
+id_produit,id_commande,category,nom,description,price
+1,7,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,51,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,64,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,162,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,58,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,69,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,55,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,40,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
+3,,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
+3,150,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
+3,59,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
+3,,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
+3,90,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
+3,,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
+3,,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
+4,146,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,99,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,61,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
+5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
+5,103,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
+5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
+5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
+5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
+5,119,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
+5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
+6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,149,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,167,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,159,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,118,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,132,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,30,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,168,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,125,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,10,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
+8,,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
+8,,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
+8,18,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
+8,,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
+8,63,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
+8,,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,15,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,111,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,137,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
+10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
+10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
+10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
+10,4,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
+10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
+10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
+10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
+11,24,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,36,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,128,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,48,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,77,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,37,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+11,133,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
+12,,voiture,Tesla Model S,Une berline électrique haut de gamme et rapide.,48821.27
+12,,voiture,Tesla Model S,Une berline électrique haut de gamme et rapide.,48821.27
+12,,voiture,Tesla Model S,Une berline électrique haut de gamme et rapide.,48821.27
+13,38,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,65,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,13,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,144,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,60,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
+14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,12,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,151,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,25,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,66,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,143,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,154,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,108,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+14,53,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
+15,8,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
+15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
+15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
+15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
+15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
+15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
+15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
+16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,28,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,106,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,75,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,97,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,74,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,22,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,107,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,11,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,42,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,73,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+17,153,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,31,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,67,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,23,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,84,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,82,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,115,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
+20,50,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+20,147,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
+21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,114,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,76,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,120,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,127,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,71,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,160,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,166,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,35,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,136,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+22,145,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
+23,33,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
+23,,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
+23,,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
+23,,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
+23,,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
+23,124,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
+23,47,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,49,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,126,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,123,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,96,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,158,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,165,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+24,39,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
+25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,19,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,93,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,164,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,94,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,81,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,117,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+25,27,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,70,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,17,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,88,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,56,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,89,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,138,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,20,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
+27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,78,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,44,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+27,14,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
+28,5,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,79,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,131,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,29,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,156,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
+29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,26,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,85,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,86,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,122,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,62,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+29,148,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
+30,92,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,43,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,113,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,1,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,54,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,135,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,80,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+30,,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
+31,101,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,98,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,129,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,34,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,121,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,142,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,2,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+31,83,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
+32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,163,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,46,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,68,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,32,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,134,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,104,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,45,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,16,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
+33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+33,155,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
+34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
+34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
+34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
+34,110,missile,Scud,Un missile balistique à courte portée.,4510295.4
+34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
+34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
+34,109,missile,Scud,Un missile balistique à courte portée.,4510295.4
+35,,missile,Harpoon,Un missile anti-navire à longue portée.,1970011.47
+35,,missile,Harpoon,Un missile anti-navire à longue portée.,1970011.47
+35,102,missile,Harpoon,Un missile anti-navire à longue portée.,1970011.47
+36,130,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+36,157,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+36,3,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+36,141,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,72,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,57,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,9,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,112,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+37,139,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
+38,,missile,Exocet,Un missile anti-navire performant.,3277800.53
+38,6,missile,Exocet,Un missile anti-navire performant.,3277800.53
+38,95,missile,Exocet,Un missile anti-navire performant.,3277800.53
+38,52,missile,Exocet,Un missile anti-navire performant.,3277800.53
+38,41,missile,Exocet,Un missile anti-navire performant.,3277800.53
+39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,91,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,152,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,116,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,140,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,105,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,161,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+39,100,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
+40,,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
+40,87,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
+40,,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
+40,,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
+40,,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
+40,21,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
