@@ -1,4 +1,4 @@
-# Stage 1: Development Environment
+# Development Environment
 FROM node:20 AS development
 
 WORKDIR /app
