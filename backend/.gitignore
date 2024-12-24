@@ -1,3 +1,9 @@
+# Database
+data
+
+# Package compatibility
+package-lock.json
+
 # Logs
 logs
 *.log

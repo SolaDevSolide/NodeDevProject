@@ -1,22 +1,14 @@
 # Development Environment
-FROM node:20 AS development
+FROM node:22 AS development
 
-WORKDIR /app
-COPY package*.json ./
+WORKDIR /frontend
+COPY package.json /frontend/
 RUN npm install
-COPY . .
+RUN npm install -g @angular/cli@latest
+COPY . /frontend
 
-# Start Angular in watch mode
-CMD ["npm", "run", "start", "--", "--host", "0.0.0.0"]
+RUN ng update
 
-# Production Environment
-FROM node:20 AS production
+EXPOSE 4200
 
-WORKDIR /app
-COPY package*.json ./
-RUN npm install --only=production
-COPY . .
-RUN npm run build --prod
-
-CMD ["npx", "http-server", "dist/frontend", "-p", "4200"]
-
+CMD ng serve --host 0.0.0.0

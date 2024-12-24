@@ -1,0 +1,5 @@
+# Remove the node_modules from the docker as is is a rather large directory
+node_modules
+
+# git related files that are not needed for the running code
+.gitignore

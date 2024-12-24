@@ -1,5 +1,9 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
+# Package locked is ignored to resolve any compatibility issue if build on a windows
+# environement and then used in docker
+package-lock.json
+
 # Compiled output
 /dist
 /tmp
