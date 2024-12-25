@@ -1,4 +1,4 @@
-id_produit,id_commande,category,nom,description,price
+product_id,order_id,category,name,description,price
 1,7,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
 1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
 1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22

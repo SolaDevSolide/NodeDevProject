@@ -1,4 +1,4 @@
-id_commande,address,date,status
+order_id,address,date,status
 1,"541, rue de Alexandre, 15124 Rey",2023-01-01 00:00:00,en cours
 2,"boulevard Collin, 27053 Couturier-sur-Mer",2023-01-04 01:51:25,annulée
 3,"58, rue Cécile Lefort, 50413 Jacquet-sur-Mer",2023-01-07 03:42:51,annulée
