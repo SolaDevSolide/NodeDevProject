@@ -9,15 +9,17 @@ services:
       - ./backend:/backend
       - backend_node_modules:/backend/node_modules
     environment:
-      - NODE_ENV=development
-      - PORT=3000
-      - DB_USER=postgres
-      - DB_PASSWORD=admin
-      - DB_HOST=postgres_db
-      - DB_NAME=nodeAngular
-      - DB_PORT=5432
+      NODE_ENV: "development"
+      PORT: "3000"
+      DB_USER: "postgres"
+      DB_PASSWORD: "admin"
+      DB_HOST: "postgres_db"
+      DB_NAME: "nodeAngular"
+      DB_PORT: "5432"
     depends_on:
       - postgres_db
+    networks:
+      - app_network
 
   frontend:
     build:
@@ -30,17 +32,29 @@ services:
       - frontend_node_modules:/frontend/node_modules
     depends_on:
       - backend
+    networks:
+      - app_network
 
   postgres_db:
     image: postgres:15
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin
-      POSTGRES_DB: nodeAngular
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "admin"
+      POSTGRES_DB: "nodeAngular"
     ports:
       - "5432:5432"
     volumes:
       - ./backend/data:/postgresql/data
+    healthcheck: # Ensures DB is ready before backend tries to connect
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 5s
+      retries: 5
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
 
 volumes:
   backend_node_modules:

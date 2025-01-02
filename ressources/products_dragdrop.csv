@@ -1,0 +1,25 @@
+product_id,order_id,category,name,description,price
+41,,fruit,Ananas,Un fruit tropical sucré à chair juteuse.,4.91
+41,15,fruit,Ananas,Un fruit tropical sucré à chair juteuse.,4.91
+41,120,fruit,Ananas,Un fruit tropical sucré à chair juteuse.,4.91
+42,,fruit,Melon,Un fruit frais et rafraîchissant au goût sucré.,3.82
+42,,fruit,Melon,Un fruit frais et rafraîchissant au goût sucré.,3.82
+42,66,fruit,Melon,Un fruit frais et rafraîchissant au goût sucré.,3.82
+43,100,fruit,Papaye,Un fruit exotique à la chair douce et orangée.,4.21
+43,,fruit,Papaye,Un fruit exotique à la chair douce et orangée.,4.21
+44,12,animal,Chien,Un fidèle compagnon à quatre pattes plein d’énergie.,638.99
+44,,animal,Chien,Un fidèle compagnon à quatre pattes plein d’énergie.,638.99
+44,150,animal,Chien,Un fidèle compagnon à quatre pattes plein d’énergie.,638.99
+45,,animal,Chat,Un félin domestique indépendant et joueur.,321.55
+45,,animal,Chat,Un félin domestique indépendant et joueur.,321.55
+45,77,animal,Chat,Un félin domestique indépendant et joueur.,321.55
+46,,fusée,Proton-M,Une fusée russe puissante pour des charges lourdes.,123456789.99
+46,99,fusée,Proton-M,Une fusée russe puissante pour des charges lourdes.,123456789.99
+47,,voiture,Peugeot 208,Une citadine française compacte et économique.,15333.21
+47,47,voiture,Peugeot 208,Une citadine française compacte et économique.,15333.21
+48,,missile,Kinzhal,Un missile balistique hypersonique ultrarapide.,5000000.00
+48,,missile,Kinzhal,Un missile balistique hypersonique ultrarapide.,5000000.00
+49,,voiture,Citroën C4,Une berline élégante et confortable conçue pour la ville.,14222.44
+49,33,voiture,Citroën C4,Une berline élégante et confortable conçue pour la ville.,14222.44
+50,115,fruit,Litchi,Un petit fruit exotique sucré et parfumé.,5.36
+50,,fruit,Litchi,Un petit fruit exotique sucré et parfumé.,5.36

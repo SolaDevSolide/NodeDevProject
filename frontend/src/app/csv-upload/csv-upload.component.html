@@ -1,0 +1,61 @@
+<mat-card class="p-4 m-4">
+  <h2>Drag & Drop CSV Files</h2>
+
+  <!-- Drag & Drop Zone -->
+  <div
+    (dragenter)="onDragEnter($event)"
+    (dragleave)="onDragLeave($event)"
+    (dragover)="onDragOver($event)"
+    (drop)="onDrop($event)"
+    [ngClass]="{ 'scale-105 shadow-lg': isDragging }"
+    class="transition-all duration-200 ease-in-out"
+    style="border: 2px dashed #bbb; padding: 2rem; text-align: center; margin-bottom: 1rem;"
+  >
+    <p>Drag & drop your CSV file(s) here</p>
+    <p>or
+      <button (click)="browseFiles()" color="primary" mat-button>Browse</button>
+    </p>
+    <input
+      #fileInput
+      (change)="onFileSelected($event)"
+      accept=".csv"
+      hidden
+      multiple
+      type="file"
+    />
+  </div>
+
+  <!-- List of Selected Files -->
+  <h3>Selected Files</h3>
+  <mat-list *ngIf="uploadedFiles.length > 0; else noFiles" dense>
+    <mat-list-item *ngFor="let uf of uploadedFiles; index as i">
+      <div class="flex justify-between items-center w-full">
+        <div>
+          {{ uf.file.name }}
+          <ng-container *ngIf="uf.tableType">
+            <span style="color: {{ uf.tableType !== 'unknown' ? 'green' : 'red' }}">
+              ({{ uf.tableType }})
+            </span>
+          </ng-container>
+        </div>
+        <button (click)="removeFile(i)" color="warn" mat-icon-button>
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </mat-list-item>
+  </mat-list>
+
+  <ng-template #noFiles>
+    <p>No files selected.</p>
+  </ng-template>
+
+  <!-- Actions -->
+  <div class="mt-4">
+    <button (click)="validateFiles()" color="primary" mat-raised-button>
+      Validate Files
+    </button>
+    <button (click)="uploadToBackend()" class="ml-2" color="accent" mat-raised-button>
+      Upload to Backend
+    </button>
+  </div>
+</mat-card>
