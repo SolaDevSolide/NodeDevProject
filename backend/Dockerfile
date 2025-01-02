@@ -2,7 +2,7 @@
 FROM node:22 AS development
 
 WORKDIR /backend
-COPY package*.json ./
+COPY package.json ./
 RUN npm install
 COPY . .
 

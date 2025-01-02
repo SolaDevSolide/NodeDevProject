@@ -1,0 +1,10 @@
+.drag-drop-zone {
+  /* Animate changes to transform, box-shadow, background, etc. */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.drag-drop-zone.drag-over {
+  /* Slight scale and shadow to indicate focus */
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}

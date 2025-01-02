@@ -1,6 +1,8 @@
 # Database
 data
 
+tmp
+
 # Package compatibility
 package-lock.json
 
