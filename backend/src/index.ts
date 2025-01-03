@@ -156,5 +156,6 @@ app.use((err: any, req: Request, res: Response, _next: NextFunction) => {
 if (process.env.NODE_ENV !== 'test') {
     app.listen(port, () => {
         console.log(`Server is running at http://localhost:${port}`);
+        console.log(`Swagger documentation can be found at http://localhost:${port}/api-docs`);
     });
 }
