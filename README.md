@@ -101,7 +101,8 @@ If there is any problem with ports please refer to the [Common Issues and Fixes]
 1. **Navigating the App**:
     - On first load, you land on the **Main Page**.
     - **Upload**: Go to the CSV upload page to drag-and-drop your CSV files (orders or products), you may find some
-      example csv files to drag and drop under the `/ressources` directory of the repo.
+      example csv files to drag and drop under the `/ressources` directory of the repo (if needed you can also run the
+      python script `generate_csv.py` to make other csv).
         1. **Validate** the files to check if they match expected columns.
         2. **Insert** them into the PostgreSQL database.
     - **Visualization**: Under `/visualization`, you can choose:
@@ -323,5 +324,4 @@ If the PostgreSQL port `5432` is already in use by another process, it may preve
 ---
 
 **Enjoy using our app!** Feel free to open issues or contribute improvements via pull requests. And please don't delete
-our main branch as it is not protected
-if you do we will be very sad (´,_ゝ`)
+our main branch as it is not protected, if you do we will be very sad (´,_ゝ`)

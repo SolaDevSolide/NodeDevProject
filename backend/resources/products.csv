@@ -1,505 +1,284 @@
 product_id,order_id,category,name,description,price
-1,7,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,51,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,64,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,162,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,58,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-1,,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.22
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,69,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,55,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,40,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-2,,fruit,Banane,Un fruit riche en potassiumi déal pour l'énergie rapide.,2.61
-3,,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
-3,150,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
-3,59,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
-3,,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
-3,90,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
-3,,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
-3,,fruit,Cerise,De petites baies rouges sucrées parfaites pour l'été.,1.48
-4,146,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,99,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,61,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-4,,fruit,Datte,Un fruit sucré et collant excellent pour la digestion.,2.44
-5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
-5,103,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
-5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
-5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
-5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
-5,119,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
-5,,fruit,Figue,Un fruit sucré et délicat avec une chair tendre.,2.97
-6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,149,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,167,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,159,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,118,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,132,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,30,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-6,,fruit,Grenade,Un fruit rempli de grains juteux et antioxydants.,3.28
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,168,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,125,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,10,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-7,,fruit,Kiwi,Un fruit vert acidulé riche en vitamine C.,4.64
-8,,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
-8,,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
-8,18,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
-8,,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
-8,63,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
-8,,fruit,Mangue,Un fruit tropical doux et savoureux.,4.2
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,15,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,111,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,137,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-9,,fruit,Orange,Un agrume juteux et rafraîchissant riche en vitamine C.,4.86
-10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
-10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
-10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
-10,4,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
-10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
-10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
-10,,fruit,Poire,Un fruit doux et juteux à chair tendre.,2.36
-11,24,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,36,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,128,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,48,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,77,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,37,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-11,133,voiture,Ford Mustang,Une voiture sportive américaine emblématique.,25653.86
-12,,voiture,Tesla Model S,Une berline électrique haut de gamme et rapide.,48821.27
-12,,voiture,Tesla Model S,Une berline électrique haut de gamme et rapide.,48821.27
-12,,voiture,Tesla Model S,Une berline électrique haut de gamme et rapide.,48821.27
-13,38,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,65,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,13,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,144,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,60,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-13,,voiture,BMW X5,Un SUV luxueux combinant confort et performance.,29608.14
-14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,12,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,151,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,25,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,66,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,143,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,154,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,108,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-14,53,voiture,Audi A4,Une berline allemande élégante et fiable.,80228.93
-15,8,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
-15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
-15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
-15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
-15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
-15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
-15,,voiture,Toyota Corolla,Une voiture compacte pratique et économique.,14080.33
-16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,28,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,106,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,75,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,97,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,74,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,22,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,107,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-16,,voiture,Honda Civic,Un véhicule polyvalent apprécié pour sa durabilité.,59160.56
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,11,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,42,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,73,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-17,153,voiture,Porsche 911,Une voiture de sport légendaire avec des performances exceptionnelles.,26558.04
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-18,,voiture,Mercedes G-Class,Un SUV robuste et luxueux adapté à tous les terrains.,51806.87
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,31,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,67,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,23,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,84,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,82,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,115,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-19,,voiture,Lamborghini Huracan,Une supercar italienne avec un design audacieux.,75238.51
-20,50,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-20,147,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-20,,voiture,Ferrari F8,Une voiture de sport italienne au moteur puissant.,97335.45
-21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,114,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,76,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,120,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,127,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,71,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,160,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-21,,fusée,Falcon 1,La première fusée développée par SpaceX.,132195933.81
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,166,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,35,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,136,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-22,145,fusée,Falcon 9,Une fusée réutilisable pour des missions orbitales.,92362329.66
-23,33,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
-23,,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
-23,,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
-23,,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
-23,,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
-23,124,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
-23,47,fusée,Saturn V,La fusée légendaire qui a envoyé des hommes sur la Lune.,5298825.54
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,49,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,126,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,123,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,96,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,158,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,165,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-24,39,fusée,Atlas V,Une fusée fiable pour les lancements de satellites.,138064609.9
-25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,19,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,93,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,164,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,94,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,81,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,117,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-25,27,fusée,Delta IV,Une fusée américaine spécialisée pour des charges lourdes.,133068836.97
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,70,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,17,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,88,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,56,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,89,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,138,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,20,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-26,,fusée,Soyuz,Une fusée russe célèbre pour son utilisation prolongée.,134100628.73
-27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,78,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,44,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-27,14,fusée,Ariane 5,Une fusée européenne pour le transport de satellites.,39026610.47
-28,5,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,79,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,131,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,29,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,156,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-28,,fusée,New Shepard,Une fusée suborbitale pour le tourisme spatial.,129283813.37
-29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,26,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,85,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,86,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,122,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,62,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-29,148,fusée,Starship,La fusée de nouvelle génération pour les missions Mars.,21716962.12
-30,92,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,43,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,113,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,1,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,54,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,135,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,80,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-30,,fusée,Vega,Une fusée italienne pour les charges légères.,61772792.18
-31,101,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,98,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,129,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,34,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,121,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,142,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,2,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-31,83,missile,Tomahawk,Un missile de croisière précis pour des frappes à longue distance.,1927617.06
-32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,163,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,46,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,68,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,32,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,134,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,104,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,45,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,16,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-32,,missile,Hellfire,Un missile air-sol pour les véhicules blindés.,4854189.83
-33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-33,155,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-33,,missile,Patriot,Un système antimissile défensif puissant.,3091111.53
-34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
-34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
-34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
-34,110,missile,Scud,Un missile balistique à courte portée.,4510295.4
-34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
-34,,missile,Scud,Un missile balistique à courte portée.,4510295.4
-34,109,missile,Scud,Un missile balistique à courte portée.,4510295.4
-35,,missile,Harpoon,Un missile anti-navire à longue portée.,1970011.47
-35,,missile,Harpoon,Un missile anti-navire à longue portée.,1970011.47
-35,102,missile,Harpoon,Un missile anti-navire à longue portée.,1970011.47
-36,130,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-36,157,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-36,3,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-36,141,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-36,,missile,Sidewinder,Un missile air-air à courte portée.,4826140.36
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,72,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,57,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,9,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,112,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-37,139,missile,Trident II,Un missile balistique lancé depuis sous-marin.,2060497.41
-38,,missile,Exocet,Un missile anti-navire performant.,3277800.53
-38,6,missile,Exocet,Un missile anti-navire performant.,3277800.53
-38,95,missile,Exocet,Un missile anti-navire performant.,3277800.53
-38,52,missile,Exocet,Un missile anti-navire performant.,3277800.53
-38,41,missile,Exocet,Un missile anti-navire performant.,3277800.53
-39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,91,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,152,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,116,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,140,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,105,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,161,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-39,100,missile,Javelin,Un missile portable pour l'infanterie.,2407301.03
-40,,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
-40,87,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
-40,,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
-40,,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
-40,,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
-40,21,missile,BrahMos,Un missile de croisière supersonique.,4206061.35
+1,1,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,2.99
+2,1,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,5.15
+3,1,véhicule,Voiture,Un véhicule performant pour tous vos besoins de transport.,19958.16
+4,2,légume,Carotte,Un légume frais pour toutes vos recettes saines.,15.66
+5,2,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,19999.33
+6,2,snack,Chips,Un snack croustillant pour toutes les occasions.,3.15
+7,2,légume,Carotte,Un légume frais pour toutes vos recettes saines.,14.61
+8,2,légume,Carotte,Un légume frais pour toutes vos recettes saines.,11.72
+9,3,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,9350.32
+10,4,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,1.89
+11,4,snack,Chips,Un snack croustillant pour toutes les occasions.,8.34
+12,5,snack,Chips,Un snack croustillant pour toutes les occasions.,13.2
+13,5,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,15.09
+14,5,légume,Carotte,Un légume frais pour toutes vos recettes saines.,10.5
+15,6,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,16.35
+16,6,snack,Chips,Un snack croustillant pour toutes les occasions.,12.07
+17,7,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,19.6
+18,7,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,16664.68
+19,7,véhicule,Fusée,Un véhicule performant pour tous vos besoins de transport.,1103.86
+20,7,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,6.4
+21,8,véhicule,Voiture,Un véhicule performant pour tous vos besoins de transport.,6591.64
+22,8,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,16.68
+23,9,légume,Carotte,Un légume frais pour toutes vos recettes saines.,7.97
+24,9,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,10216.81
+25,9,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,10.51
+26,9,véhicule,Voiture,Un véhicule performant pour tous vos besoins de transport.,8734.26
+27,10,snack,Chips,Un snack croustillant pour toutes les occasions.,8.57
+28,11,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,10.4
+29,11,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,10.08
+30,11,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,16.31
+31,11,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,16.5
+32,12,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,12639.9
+33,12,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,18.98
+34,13,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,13.79
+35,13,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,19176.45
+36,14,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,15.35
+37,14,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,19.83
+38,14,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,10.54
+39,14,snack,Chips,Un snack croustillant pour toutes les occasions.,9.65
+40,15,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,13.59
+41,16,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,4300.69
+42,16,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,12986.09
+43,16,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,16386.04
+44,17,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,12.28
+45,17,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,19.1
+46,17,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,14.49
+47,17,snack,Chips,Un snack croustillant pour toutes les occasions.,14.36
+48,18,légume,Carotte,Un légume frais pour toutes vos recettes saines.,6.26
+49,18,véhicule,Train,Un véhicule performant pour tous vos besoins de transport.,12456.78
+50,19,légume,Carotte,Un légume frais pour toutes vos recettes saines.,13.75
+51,20,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,5369.2
+52,20,légume,Carotte,Un légume frais pour toutes vos recettes saines.,3.6
+53,20,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,12.99
+54,20,véhicule,Fusée,Un véhicule performant pour tous vos besoins de transport.,19059.44
+55,20,snack,Chips,Un snack croustillant pour toutes les occasions.,9.4
+56,21,légume,Carotte,Un légume frais pour toutes vos recettes saines.,14.59
+57,21,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,8773.34
+58,21,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,13904.17
+59,21,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,8332.11
+60,21,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,17.84
+61,22,légume,Carotte,Un légume frais pour toutes vos recettes saines.,10.03
+62,23,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,1730.53
+63,24,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,15.46
+64,24,snack,Chips,Un snack croustillant pour toutes les occasions.,15.81
+65,25,légume,Carotte,Un légume frais pour toutes vos recettes saines.,10.57
+66,25,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,18.22
+67,26,snack,Chips,Un snack croustillant pour toutes les occasions.,19.14
+68,26,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,19650.16
+69,26,légume,Carotte,Un légume frais pour toutes vos recettes saines.,8.56
+70,26,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,2.9
+71,26,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,6377.49
+72,27,snack,Chips,Un snack croustillant pour toutes les occasions.,15.38
+73,27,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,9159.27
+74,27,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,16817.61
+75,27,snack,Chips,Un snack croustillant pour toutes les occasions.,1.02
+76,28,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,15.69
+77,28,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,11.1
+78,28,véhicule,Voiture,Un véhicule performant pour tous vos besoins de transport.,15310.87
+79,28,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,9.33
+80,29,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,8.31
+81,29,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,11.41
+82,29,légume,Carotte,Un légume frais pour toutes vos recettes saines.,8.05
+83,29,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.93
+84,30,véhicule,Tank,Un véhicule performant pour tous vos besoins de transport.,7316.55
+85,30,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,1525.04
+86,30,snack,Chips,Un snack croustillant pour toutes les occasions.,11.82
+87,30,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,3.2
+88,30,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,17.34
+89,31,snack,Chips,Un snack croustillant pour toutes les occasions.,2.92
+90,32,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,19.19
+91,32,véhicule,Train,Un véhicule performant pour tous vos besoins de transport.,4395.49
+92,33,véhicule,Fusée,Un véhicule performant pour tous vos besoins de transport.,13392.54
+93,34,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,5.59
+94,34,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,19.89
+95,34,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,14602.0
+96,35,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,12200.37
+97,35,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,19.63
+98,36,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,17933.89
+99,36,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,11.13
+100,37,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,4604.09
+101,37,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,1.86
+102,37,véhicule,Fusée,Un véhicule performant pour tous vos besoins de transport.,12477.38
+103,38,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,15.1
+104,38,légume,Carotte,Un légume frais pour toutes vos recettes saines.,1.06
+105,39,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,8033.81
+106,39,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,15225.32
+107,39,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,5.49
+108,40,snack,Chips,Un snack croustillant pour toutes les occasions.,4.18
+109,40,légume,Carotte,Un légume frais pour toutes vos recettes saines.,17.82
+110,40,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,4332.34
+111,40,légume,Carotte,Un légume frais pour toutes vos recettes saines.,16.83
+112,40,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,3622.47
+113,41,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,4.28
+114,41,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,19283.9
+115,41,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,3238.91
+116,41,légume,Carotte,Un légume frais pour toutes vos recettes saines.,4.11
+117,42,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,15.56
+118,42,snack,Chips,Un snack croustillant pour toutes les occasions.,10.92
+119,42,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,14.85
+120,42,snack,Chips,Un snack croustillant pour toutes les occasions.,11.73
+121,43,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,3098.93
+122,43,snack,Chips,Un snack croustillant pour toutes les occasions.,5.22
+123,44,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,12956.99
+124,44,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,18039.06
+125,44,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,12136.57
+126,44,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,7.95
+127,44,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,18.98
+128,45,snack,Chips,Un snack croustillant pour toutes les occasions.,10.39
+129,45,snack,Chips,Un snack croustillant pour toutes les occasions.,4.25
+130,45,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,17.88
+131,45,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,10965.43
+132,46,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,17315.37
+133,47,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,6790.18
+134,47,légume,Carotte,Un légume frais pour toutes vos recettes saines.,19.46
+135,47,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,9426.56
+136,48,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,19.14
+137,48,véhicule,Tank,Un véhicule performant pour tous vos besoins de transport.,393.78
+138,49,légume,Carotte,Un légume frais pour toutes vos recettes saines.,4.74
+139,49,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,19994.59
+140,49,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,12.1
+141,49,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,1382.91
+142,49,véhicule,Voiture,Un véhicule performant pour tous vos besoins de transport.,2857.05
+143,50,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,3328.93
+144,51,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,17.6
+145,52,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,2155.98
+146,52,véhicule,Train,Un véhicule performant pour tous vos besoins de transport.,11590.51
+147,52,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,7.83
+148,53,snack,Chips,Un snack croustillant pour toutes les occasions.,2.45
+149,54,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,14045.74
+150,54,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,8.56
+151,54,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,7.63
+152,55,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,12.85
+153,55,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,3649.87
+154,55,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,13.75
+155,56,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,18.0
+156,56,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,17.41
+157,56,véhicule,Tank,Un véhicule performant pour tous vos besoins de transport.,3847.05
+158,56,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,7.44
+159,57,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,15.72
+160,57,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,5.33
+161,57,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,17.52
+162,57,légume,Carotte,Un légume frais pour toutes vos recettes saines.,17.88
+163,58,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,10633.47
+164,59,snack,Chips,Un snack croustillant pour toutes les occasions.,9.54
+165,59,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,2.84
+166,59,snack,Chips,Un snack croustillant pour toutes les occasions.,6.39
+167,60,snack,Chips,Un snack croustillant pour toutes les occasions.,19.69
+168,61,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,8.99
+169,61,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,927.4
+170,61,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,11.22
+171,62,légume,Carotte,Un légume frais pour toutes vos recettes saines.,4.71
+172,62,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,10504.63
+173,62,véhicule,Tank,Un véhicule performant pour tous vos besoins de transport.,19304.75
+174,62,snack,Chips,Un snack croustillant pour toutes les occasions.,4.29
+175,63,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,5.92
+176,64,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,7051.74
+177,65,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,8587.07
+178,66,légume,Carotte,Un légume frais pour toutes vos recettes saines.,9.3
+179,66,légume,Carotte,Un légume frais pour toutes vos recettes saines.,15.46
+180,67,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.12
+181,67,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,8.26
+182,67,véhicule,Voiture,Un véhicule performant pour tous vos besoins de transport.,12563.03
+183,68,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,485.59
+184,68,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,14121.93
+185,68,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,6.25
+186,68,légume,Carotte,Un légume frais pour toutes vos recettes saines.,5.09
+187,68,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,12.46
+188,69,snack,Chips,Un snack croustillant pour toutes les occasions.,15.81
+189,69,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,5.07
+190,69,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,11522.3
+191,69,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,14893.88
+192,69,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,17636.77
+193,70,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,13.4
+194,71,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,13.55
+195,71,snack,Chips,Un snack croustillant pour toutes les occasions.,12.29
+196,71,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,4.65
+197,72,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,9.92
+198,72,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,13.39
+199,72,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,16.12
+200,73,légume,Carotte,Un légume frais pour toutes vos recettes saines.,1.8
+201,73,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,17.11
+202,73,snack,Chips,Un snack croustillant pour toutes les occasions.,7.68
+203,73,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,13.63
+204,73,véhicule,Tank,Un véhicule performant pour tous vos besoins de transport.,13667.52
+205,74,snack,Chips,Un snack croustillant pour toutes les occasions.,17.08
+206,75,véhicule,Tank,Un véhicule performant pour tous vos besoins de transport.,13354.51
+207,76,légume,Carotte,Un légume frais pour toutes vos recettes saines.,10.98
+208,77,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,6570.59
+209,78,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,14251.33
+210,78,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,15.21
+211,78,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,2.98
+212,78,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,3.46
+213,78,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,3462.35
+214,79,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,6.63
+215,79,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,4894.55
+216,79,véhicule,Fusée,Un véhicule performant pour tous vos besoins de transport.,6655.64
+217,79,légume,Carotte,Un légume frais pour toutes vos recettes saines.,18.9
+218,79,snack,Chips,Un snack croustillant pour toutes les occasions.,5.48
+219,80,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,2041.27
+220,80,légume,Carotte,Un légume frais pour toutes vos recettes saines.,17.94
+221,80,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,13.97
+222,80,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,5.6
+223,81,légume,Carotte,Un légume frais pour toutes vos recettes saines.,11.19
+224,81,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,18.58
+225,81,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,8.16
+226,81,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,12.15
+227,81,snack,Chips,Un snack croustillant pour toutes les occasions.,14.82
+228,82,légume,Carotte,Un légume frais pour toutes vos recettes saines.,3.26
+229,82,légume,Carotte,Un légume frais pour toutes vos recettes saines.,14.94
+230,83,snack,Chips,Un snack croustillant pour toutes les occasions.,17.49
+231,83,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,10.18
+232,83,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,5.92
+233,83,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,19135.56
+234,84,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,12.66
+235,84,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,8.45
+236,84,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,16330.85
+237,85,snack,Chips,Un snack croustillant pour toutes les occasions.,9.24
+238,85,véhicule,Voiture,Un véhicule performant pour tous vos besoins de transport.,14694.93
+239,85,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,3.96
+240,85,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,19616.44
+241,85,snack,Chips,Un snack croustillant pour toutes les occasions.,15.47
+242,86,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,518.34
+243,86,véhicule,Avion,Un véhicule performant pour tous vos besoins de transport.,341.49
+244,86,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,13.18
+245,86,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,16.33
+246,87,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,11.53
+247,87,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,4.08
+248,87,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,8988.75
+249,88,snack,Chips,Un snack croustillant pour toutes les occasions.,14.07
+250,88,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,16945.63
+251,88,snack,Chips,Un snack croustillant pour toutes les occasions.,17.48
+252,88,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,3426.09
+253,88,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,5325.62
+254,89,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,7.02
+255,89,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,17.03
+256,89,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,2.17
+257,89,légume,Carotte,Un légume frais pour toutes vos recettes saines.,8.9
+258,90,véhicule,Tank,Un véhicule performant pour tous vos besoins de transport.,4965.7
+259,90,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,15.01
+260,90,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,16350.57
+261,90,snack,Chips,Un snack croustillant pour toutes les occasions.,2.74
+262,90,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,9.95
+263,91,armement,Lance-roquettes,Un équipement de pointe pour votre sécurité et défense.,7154.15
+264,92,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,10251.08
+265,93,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,13.17
+266,93,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,12.99
+267,93,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,10.27
+268,94,snack,Chips,Un snack croustillant pour toutes les occasions.,4.86
+269,95,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,17.34
+270,95,snack,Chips,Un snack croustillant pour toutes les occasions.,5.4
+271,95,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,13.39
+272,95,snack,Chips,Un snack croustillant pour toutes les occasions.,19.81
+273,95,snack,Chips,Un snack croustillant pour toutes les occasions.,5.44
+274,96,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,2.18
+275,96,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,3.34
+276,96,véhicule,Vaisseau spatial,Un véhicule performant pour tous vos besoins de transport.,16369.28
+277,97,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,16153.56
+278,98,boisson,Jus d'orange,Une boisson rafraîchissante et naturelle.,16.89
+279,99,armement,Canon,Un équipement de pointe pour votre sécurité et défense.,10780.72
+280,99,armement,Missile,Un équipement de pointe pour votre sécurité et défense.,4076.46
+281,100,snack,Chips,Un snack croustillant pour toutes les occasions.,17.48
+282,100,fruit,Pomme,Un fruit croquant et juteux parfait pour les collations.,18.96
+283,100,snack,Chips,Un snack croustillant pour toutes les occasions.,2.44
