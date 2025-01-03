@@ -1,7 +1,7 @@
 /**
  * Upload and validation routes (orders / products).
  */
-import {Router} from 'express';
+import {Response, Router} from 'express';
 import {parse, parse as csvParse} from 'csv-parse';
 import fs from 'fs';
 import path from 'path';
@@ -54,23 +54,19 @@ const PRODUCT_COLUMNS = ['product_id', 'order_id', 'category', 'name', 'descript
 uploadRouter.post(
     '/validate',
     upload.array('files'),
-    asyncMulterHandler(async (req: MulterRequest, res) => {
+    asyncMulterHandler(async (req: MulterRequest, res: Response) => {
         if (!req.files || !Array.isArray(req.files) || req.files.length === 0) {
             return res.status(400).json({message: 'No files uploaded'});
         }
 
         const results: ValidationResult[] = [];
 
-        console.log(`Validating ${req.files}`)
-
         for (const file of req.files) {
-            const filePath = path.join(__dirname, '../../', file.path);
-            const fileContent = fs.readFileSync(filePath, 'utf8');
-
-            console.log(filePath)
+            const filePath: string = path.join(__dirname, '../../', file.path);
+            const fileContent: string = fs.readFileSync(filePath, 'utf8');
 
             // Parse only the first row to detect columns
-            const [headers] = await new Promise<string[][]>((resolve, reject) => {
+            const [headers]: string[][] = await new Promise<string[][]>((resolve, reject) => {
                 const output: string[][] = [];
                 parse(fileContent, {
                     delimiter: ',',
@@ -85,20 +81,19 @@ uploadRouter.post(
                     .on('error', (err) => reject(err));
             });
 
-            let tableType = TableType.Unknown;
+            let tableType: TableType = TableType.Unknown;
 
-            const lowerHeaders = headers.map((h) => h.toLowerCase()).sort();
-            const orderCols = [...ORDER_COLUMNS].map((c) => c.toLowerCase()).sort();
-            const productCols = [...PRODUCT_COLUMNS].map((c) => c.toLowerCase()).sort();
-            console.log("Checks:", lowerHeaders, orderCols, productCols)
+            const lowerHeaders: string[] = headers.map((h: string): string => h.toLowerCase()).sort();
+            const orderCols: string[] = [...ORDER_COLUMNS].map((c: string): string => c.toLowerCase()).sort();
+            const productCols: string[] = [...PRODUCT_COLUMNS].map((c: string): string => c.toLowerCase()).sort();
             if (
                 lowerHeaders.length === ORDER_COLUMNS.length &&
-                lowerHeaders.every((val, i) => val === orderCols[i])
+                lowerHeaders.every((val: string, i: number): boolean => val === orderCols[i])
             ) {
                 tableType = TableType.Orders;
             } else if (
                 lowerHeaders.length === PRODUCT_COLUMNS.length &&
-                lowerHeaders.every((val, i) => val === productCols[i])
+                lowerHeaders.every((val: string, i: number): boolean => val === productCols[i])
             ) {
                 tableType = TableType.Products;
             }
@@ -142,7 +137,7 @@ uploadRouter.post(
 uploadRouter.post(
     '/insert',
     upload.array('files'),
-    asyncMulterHandler(async (req: MulterRequest, res) => {
+    asyncMulterHandler(async (req: MulterRequest, res: Response) => {
         if (!req.files || req.files.length === 0) {
             return res.status(400).json({message: 'No files provided'});
         }
@@ -168,28 +163,28 @@ uploadRouter.post(
         // Loop each file
         for (const file of req.files) {
             const {filename} = file;
-            const mappedItem = filesTableMap.find((m) => m.filename === filename);
+            const mappedItem: FileTableMap | undefined = filesTableMap.find((m: FileTableMap): boolean => m.filename === filename);
             if (!mappedItem || mappedItem.tableType === TableType.Unknown) {
                 continue; // skip unknown
             }
 
-            const filePath = path.join(__dirname, '../../', file.path);
-            const fileContent = fs.readFileSync(filePath, 'utf8');
+            const filePath: string = path.join(__dirname, '../../', file.path);
+            const fileContent: string = fs.readFileSync(filePath, 'utf8');
 
             // Parse entire CSV as "CSVRow" objects
             const rawRecords: CSVRow[] = [];
-            await new Promise<void>((resolve, reject) => {
+            await new Promise<void>((resolve: (value: (PromiseLike<void> | void)) => void, reject: (reason?: any) => void) => {
                 csvParse(fileContent, {
                     delimiter: ',',
                     columns: true,
                     trim: true,
                 })
-                    .on('data', (row: CSVRow) => rawRecords.push(row))
-                    .on('end', () => resolve())
-                    .on('error', (err) => reject(err));
+                    .on('data', (row: CSVRow): number => rawRecords.push(row))
+                    .on('end', (): void => resolve())
+                    .on('error', (err: Error): void => reject(err));
             });
 
-            let rowCount = 0;
+            let rowCount: number = 0;
 
             if (mappedItem.tableType === TableType.Orders) {
                 await pool.query(`
@@ -203,7 +198,7 @@ uploadRouter.post(
                 `);
 
                 // MAP + FILTER for OrderRow
-                const orderRows: OrderRow[] = rawRecords.map((r, index) => {
+                const orderRows: OrderRow[] = rawRecords.map((r: CSVRow, index: number) => {
                     // If it’s not valid, return null
                     if (!isOrderRow(r)) {
                         console.warn(`Skipping invalid order row #${index}`, r);
@@ -211,7 +206,7 @@ uploadRouter.post(
                     }
                     return r;
                 })
-                    .filter((r): r is OrderRow => r !== null);
+                    .filter((r: null | OrderRow): r is OrderRow => r !== null);
 
                 for (const row of orderRows) {
                     await pool.query(
@@ -240,14 +235,14 @@ uploadRouter.post(
                 `);
 
                 // MAP + FILTER for ProductRow
-                const productRows: ProductRow[] = rawRecords.map((r, index) => {
+                const productRows: ProductRow[] = rawRecords.map((r: CSVRow, index: number) => {
                     if (!isProductRow(r)) {
                         console.warn(`Skipping invalid product row #${index}`, r);
                         return null;
                     }
                     return r;
                 })
-                    .filter((r): r is ProductRow => r !== null);
+                    .filter((r: null | ProductRow): r is ProductRow => r !== null);
 
                 for (const row of productRows) {
                     await pool.query(

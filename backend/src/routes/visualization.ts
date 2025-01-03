@@ -1,7 +1,7 @@
 /**
  * Visualization routes: shows combined data of Orders and their related Products
  */
-import {Router} from 'express';
+import {Request, Response, Router} from 'express';
 import {asyncHandler} from '../middleware/asyncHandler';
 import {pool} from '../index';
 
@@ -58,7 +58,7 @@ export const visualizationRouter = Router();
  */
 visualizationRouter.get(
     '/join',
-    asyncHandler(async (req, res) => {
+    asyncHandler(async (req: Request<Record<string, string>, any, any, Record<string, string | undefined>>, res: Response<any>) => {
         // We'll do a LEFT JOIN on orders->products
         // then aggregate products for each order with JSON_AGG
         // Example: SELECT o.*, JSON_AGG(p.*) AS products

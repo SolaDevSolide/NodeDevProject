@@ -16,7 +16,7 @@ import {visualizationRouter} from "./routes/visualization";
 const app = express();
 export {app}; // so we can import `app` in tests
 
-const port = process.env.PORT || 3000;
+const port: string = process.env.PORT || "3000";
 
 app.use(cors({
     origin: '*', // Allows all origins
@@ -24,7 +24,7 @@ app.use(cors({
 app.use(bodyParser.json());
 
 // 1) Shared PostgreSQL Pool
-export const pool = new Pool({
+export const pool: Pool = new Pool({
     user: process.env.DB_USER,
     host: process.env.DB_HOST,
     database: process.env.DB_NAME,
@@ -63,16 +63,16 @@ async function createTablesIfNotExist() {
 
 
 async function initializeData() {
-    const resourcesPath = path.join(__dirname, '../resources');
-    const commandsFile = path.join(resourcesPath, 'commands.csv');
-    const productsFile = path.join(resourcesPath, 'products.csv');
+    const resourcesPath: string = path.join(__dirname, '../resources');
+    const ordersFile: string = path.join(resourcesPath, 'orders.csv');
+    const productsFile: string = path.join(resourcesPath, 'products.csv');
 
     // Load and insert commands (orders)
-    if (fs.existsSync(commandsFile)) {
-        const commandsContent = fs.readFileSync(commandsFile, 'utf8');
+    if (fs.existsSync(ordersFile)) {
+        const commandsContent: string = fs.readFileSync(ordersFile, 'utf8');
         const orders: Array<{ order_id: string; address: string; date: string; status: string }> = [];
 
-        await new Promise<void>((resolve, reject) => {
+        await new Promise<void>((resolve: (value: (PromiseLike<void> | void)) => void, reject: (reason?: any) => void) => {
             parse(commandsContent, {columns: true, trim: true})
                 .on('data', (row) => {
                     orders.push(row);
@@ -87,13 +87,11 @@ async function initializeData() {
                 [order.order_id, order.address, order.date, order.status]
             );
         }
-
-        console.log(`Inserted ${orders.length} orders into the database.`);
     }
 
     // Load and insert products
     if (fs.existsSync(productsFile)) {
-        const productsContent = fs.readFileSync(productsFile, 'utf8');
+        const productsContent: string = fs.readFileSync(productsFile, 'utf8');
         const products: Array<{
             product_id: string;
             order_id: string;
@@ -103,7 +101,7 @@ async function initializeData() {
             price: string
         }> = [];
 
-        await new Promise<void>((resolve, reject) => {
+        await new Promise<void>((resolve: (value: (PromiseLike<void> | void)) => void, reject: (reason?: any) => void) => {
             parse(productsContent, {columns: true, trim: true})
                 .on('data', (row) => {
                     products.push(row);
@@ -118,8 +116,6 @@ async function initializeData() {
                 [product.product_id, product.order_id, product.category, product.name, product.description, product.price]
             );
         }
-
-        console.log(`Inserted ${products.length} products into the database.`);
     }
 }
 

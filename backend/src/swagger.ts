@@ -18,7 +18,7 @@ export function swaggerSetup(app: Express): void {
         ],
     };
 
-    const specs = swaggerJsdoc(options);
+    const specs: Object = swaggerJsdoc(options);
 
     app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 }

@@ -1,7 +1,7 @@
 /**
  * Table management routes (dropping tables).
  */
-import {Request, Router} from 'express';
+import {Request, Response, Router} from 'express';
 import {asyncHandler} from '../middleware/asyncHandler';
 import {pool} from '../index';
 import {TableType} from '../types';
@@ -40,8 +40,8 @@ export const tableRouter = Router();
  */
 tableRouter.delete(
     '/:tableName',
-    asyncHandler(async (req: TableRequest, res) => {
-        const {tableName} = req.params;
+    asyncHandler(async (req: TableRequest, res: Response) => {
+        const {tableName}: { tableName: string } = req.params;
 
         if (tableName !== TableType.Orders && tableName !== TableType.Products) {
             return res.status(400).json({message: 'Invalid table name'});

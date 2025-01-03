@@ -1,7 +1,8 @@
-import {Request, Router} from 'express';
+import {Request, Response, Router} from 'express';
 import {asyncHandler} from '../middleware/asyncHandler';
 import {pool} from '../index';
 import {OrderRow} from '../types';
+import {QueryResult} from "pg";
 
 /**
  * @swagger
@@ -33,24 +34,27 @@ export const orderRouter = Router();
  */
 orderRouter.get(
     '/',
-    asyncHandler(async (req, res) => {
-        const {limit, sort} = req.query;
-        let queryStr = 'SELECT * FROM orders';
-        const params: any[] = [];
+    asyncHandler(async (req: Request<{}, {}, {}, {
+        limit?: string;
+        sort?: 'asc' | 'desc'
+    }>, res: Response<OrderRow[]>) => {
+        const {limit, sort}: { limit?: string; sort?: "asc" | "desc" } = req.query;
+        let queryStr: string = 'SELECT * FROM orders';
+        const params: number[] = [];
 
         if (sort === 'asc' || sort === 'desc') {
             queryStr += ` ORDER BY order_id ${sort}`;
         }
 
         if (limit) {
-            const l = parseInt(String(limit), 10);
+            const l: number = parseInt(String(limit), 10);
             if (!isNaN(l) && l > 0) {
                 queryStr += ' LIMIT $1';
                 params.push(l);
             }
         }
 
-        const {rows} = await pool.query(queryStr, params);
+        const {rows}: QueryResult<OrderRow> = await pool.query(queryStr, params);
         return res.json(rows);
     })
 );
@@ -64,9 +68,9 @@ orderRouter.get(
  */
 orderRouter.get(
     '/:order_id',
-    asyncHandler(async (req: Request<{ order_id: string }>, res) => {
-        const {order_id} = req.params;
-        const {rows} = await pool.query(
+    asyncHandler(async (req: Request<{ order_id: string }>, res: Response<OrderRow | { message: string }>) => {
+        const {order_id}: { order_id: string } = req.params;
+        const {rows}: QueryResult<OrderRow> = await pool.query(
             'SELECT * FROM orders WHERE order_id = $1',
             [order_id]
         );
@@ -86,8 +90,8 @@ orderRouter.get(
  */
 orderRouter.post(
     '/',
-    asyncHandler(async (req: Request<{}, {}, OrderRow>, res) => {
-        const {order_id, address, date, status} = req.body;
+    asyncHandler(async (req: Request<{}, {}, OrderRow>, res: Response<{ message: string }>) => {
+        const {order_id, address, date, status}: OrderRow = req.body;
 
         await pool.query(
             `
@@ -110,11 +114,11 @@ orderRouter.post(
  */
 orderRouter.put(
     '/:order_id',
-    asyncHandler(async (req: Request<{ order_id: string }, {}, OrderRow>, res) => {
-        const {order_id} = req.params;
-        const {address, date, status} = req.body;
+    asyncHandler(async (req: Request<{ order_id: string }, {}, OrderRow>, res: Response<{ message: string }>) => {
+        const {order_id}: { order_id: string } = req.params;
+        const {address, date, status}: OrderRow = req.body;
 
-        const result = await pool.query(
+        const result: QueryResult<OrderRow> = await pool.query(
             `
                 UPDATE orders
                 SET address = $1,

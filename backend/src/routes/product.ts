@@ -1,7 +1,8 @@
-import {Request, Router} from 'express';
+import {Request, Response, Router} from 'express';
 import {asyncHandler} from '../middleware/asyncHandler';
 import {pool} from '../index';
 import {ProductRow} from '../types';
+import {QueryResult} from "pg";
 
 /**
  * @swagger
@@ -36,7 +37,7 @@ export const productRouter = Router();
  */
 productRouter.get(
     '/',
-    asyncHandler(async (req, res) => {
+    asyncHandler(async (req: Request<{}, {}, {}, { limit?: string; sort?: 'asc' | 'desc' }>, res: Response) => {
         const {limit, sort} = req.query;
         let queryStr = 'SELECT * FROM products';
         const params: any[] = [];
@@ -80,9 +81,9 @@ productRouter.get(
  */
 productRouter.get(
     '/:product_id',
-    asyncHandler(async (req: Request<{ product_id: string }>, res) => {
-        const {product_id} = req.params;
-        const {rows} = await pool.query(
+    asyncHandler(async (req: Request<{ product_id: string }>, res: Response<ProductRow | { message: string }>) => {
+        const {product_id}: { product_id: string } = req.params;
+        const {rows}: QueryResult<ProductRow> = await pool.query(
             'SELECT * FROM products WHERE product_id = $1',
             [product_id]
         );
@@ -124,8 +125,8 @@ productRouter.get(
  */
 productRouter.post(
     '/',
-    asyncHandler(async (req: Request<{}, {}, ProductRow>, res) => {
-        const {product_id, order_id, category, name, description, price} =
+    asyncHandler(async (req: Request<{}, {}, ProductRow>, res: Response<{}>) => {
+        const {product_id, order_id, category, name, description, price}: ProductRow =
             req.body;
 
         await pool.query(
@@ -166,11 +167,11 @@ productRouter.post(
  */
 productRouter.put(
     '/:product_id',
-    asyncHandler(async (req: Request<{ product_id: string }, {}, ProductRow>, res) => {
-        const {product_id} = req.params;
-        const {order_id, category, name, description, price} = req.body;
+    asyncHandler(async (req: Request<{ product_id: string }, {}, ProductRow>, res: Response<{}>) => {
+        const {product_id}: { product_id: string } = req.params;
+        const {order_id, category, name, description, price}: ProductRow = req.body;
 
-        const result = await pool.query(
+        const result: QueryResult<ProductRow> = await pool.query(
             'UPDATE products SET order_id=$1, category=$2, name=$3, description=$4, price=$5 WHERE product_id=$6',
             [order_id, category, name, description, price, product_id]
         );
@@ -210,10 +211,10 @@ productRouter.put(
  */
 productRouter.delete(
     '/:product_id',
-    asyncHandler(async (req: Request<{ product_id: string }>, res) => {
+    asyncHandler(async (req: Request<{ product_id: string }, {}, {}, {}>, res: Response<{ message: string }>) => {
         const {product_id} = req.params;
 
-        const result = await pool.query(
+        const result: QueryResult = await pool.query(
             'DELETE FROM products WHERE product_id = $1',
             [product_id]
         );

@@ -71,7 +71,6 @@ export class VisualizationChartsComponent implements OnInit {
   fetchData(): void {
     this.http.get<any[]>(`${this.apiUrl}/api/visualization/join`).subscribe({
       next: (data) => {
-        console.log(data)
         this.processData(data);
       },
       error: (err) => console.error('Failed to fetch data', err),
