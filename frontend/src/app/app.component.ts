@@ -1,9 +1,11 @@
 import {Component} from '@angular/core';
-import {CsvUploadComponent} from "./csv-upload/csv-upload.component";
+import {RouterLink, RouterOutlet} from "@angular/router";
+import {MatCard} from "@angular/material/card";
+import {MatButton} from "@angular/material/button";
 
 @Component({
     selector: 'app-root',
-  imports: [CsvUploadComponent],
+  imports: [RouterOutlet, MatCard, MatButton, RouterLink],
     templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

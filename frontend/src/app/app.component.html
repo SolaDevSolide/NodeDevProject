@@ -1,1 +1,17 @@
-<app-csv-upload></app-csv-upload>
+<mat-card class="header-card">
+  <div class="flex">
+    <!-- Nav Buttons had more for new features -->
+    <button class="ml-2" mat-raised-button routerLink="/">
+      Go to Home
+    </button>
+    <button class="ml-2" mat-raised-button routerLink="/upload">
+      Go to Upload Page
+    </button>
+    <button class="ml-2" mat-raised-button routerLink="/visualization">
+      See Visualization
+    </button>
+  </div>
+</mat-card>
+
+
+<router-outlet></router-outlet>

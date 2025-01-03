@@ -1,0 +1,81 @@
+<mat-card class="p-4 m-4">
+  <h2>Orders and Products</h2>
+
+  <!-- Orders Table -->
+  <h3>Orders</h3>
+  <table [dataSource]="orders" class="mat-elevation-z2 mb-4" mat-table>
+    <!-- Define columns -->
+    <ng-container matColumnDef="order_id">
+      <th *matHeaderCellDef mat-header-cell> Order ID</th>
+      <td *matCellDef="let o" mat-cell>{{ o.order_id }}</td>
+    </ng-container>
+    <ng-container matColumnDef="address">
+      <th *matHeaderCellDef mat-header-cell> Address</th>
+      <td *matCellDef="let o" mat-cell>{{ o.address }}</td>
+    </ng-container>
+    <ng-container matColumnDef="date">
+      <th *matHeaderCellDef mat-header-cell> Date</th>
+      <td *matCellDef="let o" mat-cell>{{ o.date }}</td>
+    </ng-container>
+    <ng-container matColumnDef="status">
+      <th *matHeaderCellDef mat-header-cell> Status</th>
+      <td *matCellDef="let o" mat-cell>{{ o.status }}</td>
+    </ng-container>
+
+    <tr *matHeaderRowDef="displayedOrderColumns" mat-header-row></tr>
+    <tr *matRowDef="let row; columns: displayedOrderColumns;" mat-row></tr>
+  </table>
+
+  <!-- Products Table -->
+  <h3>Products</h3>
+  <table [dataSource]="products" class="mat-elevation-z2 mb-4" mat-table>
+    <ng-container matColumnDef="product_id">
+      <th *matHeaderCellDef mat-header-cell> Product ID</th>
+      <td *matCellDef="let p" mat-cell>{{ p.product_id }}</td>
+    </ng-container>
+    <ng-container matColumnDef="order_id">
+      <th *matHeaderCellDef mat-header-cell> Order ID</th>
+      <td *matCellDef="let p" mat-cell>{{ p.order_id }}</td>
+    </ng-container>
+    <ng-container matColumnDef="category">
+      <th *matHeaderCellDef mat-header-cell> Category</th>
+      <td *matCellDef="let p" mat-cell>{{ p.category }}</td>
+    </ng-container>
+    <ng-container matColumnDef="name">
+      <th *matHeaderCellDef mat-header-cell> Name</th>
+      <td *matCellDef="let p" mat-cell>{{ p.name }}</td>
+    </ng-container>
+    <ng-container matColumnDef="description">
+      <th *matHeaderCellDef mat-header-cell> Description</th>
+      <td *matCellDef="let p" mat-cell>{{ p.description }}</td>
+    </ng-container>
+    <ng-container matColumnDef="price">
+      <th *matHeaderCellDef mat-header-cell> Price</th>
+      <td *matCellDef="let p" mat-cell>{{ p.price }}</td>
+    </ng-container>
+
+    <tr *matHeaderRowDef="displayedProductColumns" mat-header-row></tr>
+    <tr *matRowDef="let row; columns: displayedProductColumns;" mat-row></tr>
+  </table>
+
+  <!-- Combined View -->
+  <h3>Joined Orders + Products</h3>
+  <div *ngFor="let item of joinedData" class="mb-2 border p-2">
+    <p>
+      <strong>Order ID:</strong> {{ item.order_id }} |
+      <strong>Address:</strong> {{ item.address }} |
+      <strong>Date:</strong> {{ item.date }} |
+      <strong>Status:</strong> {{ item.status }}
+    </p>
+
+    <p>Products:</p>
+    <ul>
+      <li *ngFor="let prod of item.products">
+        ID: {{ prod.product_id }},
+        Name: {{ prod.name }},
+        Category: {{ prod.category }},
+        Price: {{ prod.price }}
+      </li>
+    </ul>
+  </div>
+</mat-card>
