@@ -2,9 +2,9 @@
 FROM node:22 AS development
 
 WORKDIR /backend
-COPY package.json ./
+COPY package.json /backend/
 RUN npm install
-COPY . .
+COPY . /backend
 
 # Install nodemon for watching files
 RUN npm install -g nodemon
