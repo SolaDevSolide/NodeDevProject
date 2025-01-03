@@ -1,0 +1,12 @@
+<div>
+  <h2>Orders and Products Visualization</h2>
+
+  <!-- Only render the <canvas> if we're in the browser -->
+  <ng-container *ngIf="isBrowser">
+    <canvas [data]="barChartData"
+            [options]="barChartOptions"
+            [type]="'bar'"
+            baseChart>
+    </canvas>
+  </ng-container>
+</div>

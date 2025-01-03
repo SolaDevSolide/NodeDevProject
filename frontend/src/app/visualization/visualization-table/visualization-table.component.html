@@ -1,0 +1,130 @@
+<mat-card class="p-4 m-4">
+  <h2>Visualization Table</h2>
+
+  <!-- Dropdown to select which data to view -->
+  <mat-form-field appearance="fill">
+    <mat-label>Data to display</mat-label>
+    <mat-select (selectionChange)="onViewChange($event.value)" [(value)]="selectedView">
+      <mat-option value="orders">Orders</mat-option>
+      <mat-option value="products">Products</mat-option>
+      <mat-option value="join">Orders + Products (Joined)</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <!-- Show Orders Table if selectedView='orders' -->
+  <div *ngIf="selectedView === 'orders'">
+    <h3>Orders</h3>
+    <table [dataSource]="orders" class="mat-elevation-z2 mb-4" mat-table>
+      <!-- order_id -->
+      <ng-container matColumnDef="order_id">
+        <th *matHeaderCellDef mat-header-cell> Order ID</th>
+        <td *matCellDef="let o" mat-cell>{{ o.order_id }}</td>
+      </ng-container>
+
+      <!-- address -->
+      <ng-container matColumnDef="address">
+        <th *matHeaderCellDef mat-header-cell> Address</th>
+        <td *matCellDef="let o" mat-cell>{{ o.address }}</td>
+      </ng-container>
+
+      <!-- date -->
+      <ng-container matColumnDef="date">
+        <th *matHeaderCellDef mat-header-cell> Date</th>
+        <td *matCellDef="let o" mat-cell>{{ o.date }}</td>
+      </ng-container>
+
+      <!-- status -->
+      <ng-container matColumnDef="status">
+        <th *matHeaderCellDef mat-header-cell> Status</th>
+        <td *matCellDef="let o" mat-cell>{{ o.status }}</td>
+      </ng-container>
+
+      <tr *matHeaderRowDef="orderColumns" mat-header-row></tr>
+      <tr *matRowDef="let row; columns: orderColumns;" mat-row></tr>
+    </table>
+  </div>
+
+  <!-- Show Products Table if selectedView='products' -->
+  <div *ngIf="selectedView === 'products'">
+    <h3>Products</h3>
+    <table [dataSource]="products" class="mat-elevation-z2 mb-4" mat-table>
+      <ng-container matColumnDef="product_id">
+        <th *matHeaderCellDef mat-header-cell>Product ID</th>
+        <td *matCellDef="let p" mat-cell>{{ p.product_id }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="order_id">
+        <th *matHeaderCellDef mat-header-cell>Order ID</th>
+        <td *matCellDef="let p" mat-cell>{{ p.order_id }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="category">
+        <th *matHeaderCellDef mat-header-cell>Category</th>
+        <td *matCellDef="let p" mat-cell>{{ p.category }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="name">
+        <th *matHeaderCellDef mat-header-cell>Name</th>
+        <td *matCellDef="let p" mat-cell>{{ p.name }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="description">
+        <th *matHeaderCellDef mat-header-cell>Description</th>
+        <td *matCellDef="let p" mat-cell>{{ p.description }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="price">
+        <th *matHeaderCellDef mat-header-cell>Price</th>
+        <td *matCellDef="let p" mat-cell>{{ p.price }}</td>
+      </ng-container>
+
+      <tr *matHeaderRowDef="productColumns" mat-header-row></tr>
+      <tr *matRowDef="let row; columns: productColumns;" mat-row></tr>
+    </table>
+  </div>
+
+  <!-- Show Joined (Orders + Products) if selectedView='join' -->
+  <div *ngIf="selectedView === 'join'">
+    <h3>Orders + Products (Joined)</h3>
+
+    <!-- Example using expansion panels for each order + sub-table for products -->
+    <mat-accordion>
+      <mat-expansion-panel *ngFor="let o of joined">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Order #{{ o.order_id }} | Address: {{ o.address }} | Date: {{ o.date }}
+          </mat-panel-title>
+          <mat-panel-description>
+            {{ o.products.length }} product(s)
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+
+        <!-- Sub-table for products within this order -->
+        <table [dataSource]="o.products" class="mat-elevation-z2" mat-table>
+          <ng-container matColumnDef="product_id">
+            <th *matHeaderCellDef mat-header-cell>Product ID</th>
+            <td *matCellDef="let p" mat-cell>{{ p.product_id }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="name">
+            <th *matHeaderCellDef mat-header-cell>Name</th>
+            <td *matCellDef="let p" mat-cell>{{ p.name }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="category">
+            <th *matHeaderCellDef mat-header-cell>Category</th>
+            <td *matCellDef="let p" mat-cell>{{ p.category }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="price">
+            <th *matHeaderCellDef mat-header-cell>Price</th>
+            <td *matCellDef="let p" mat-cell>{{ p.price }}</td>
+          </ng-container>
+
+          <tr *matHeaderRowDef="['product_id','name','category','price']" mat-header-row></tr>
+          <tr *matRowDef="let row; columns: ['product_id','name','category','price'];" mat-row></tr>
+        </table>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</mat-card>
