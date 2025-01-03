@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <span>Visualization Pages</span>
+  <!-- Our shared menu ᕙ(⇀‸↼‶)ᕗ -->
+  <span class="flex-1 p-4"></span>
+  <button mat-button routerLink="charts">Charts</button>
+  <button mat-button routerLink="table">Table</button>
+  <button mat-button routerLink="d3">D3 Demo</button>
+</mat-toolbar>
+
+<div class="content">
+  <!-- Child routes get rendered here -->
+  <router-outlet></router-outlet>
+</div>
